@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-// import React, { useState } from 'react';
 
 const Materi2 = () => {
     const [list, setList] = useState([]);
@@ -21,6 +20,7 @@ const Materi2 = () => {
     ];
 
     const kurangUmur = () => {
+        if(umur>0)
         setUmur(umur - 1);
     }
 
